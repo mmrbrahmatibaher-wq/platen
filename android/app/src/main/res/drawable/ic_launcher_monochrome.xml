@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon silhouette (Android 13+): roller, carriage capsule with slot and LED, T lever, baseline mark. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- roller -->
+    <path android:fillColor="#FF000000" android:pathData="M0,65.7 L45,65.7 L45,76.1 L0,76.1 Z" />
+    <!-- capsule with slot and LED cut out -->
+    <path android:fillColor="#FF000000" android:fillType="evenOdd"
+        android:pathData="M48.4,58 L88,58 L88,80.3 L48.4,80.3 A11,11 0 0 1 37.4,69.3 L37.4,69 A11,11 0 0 1 48.4,58 Z
+            M44.3,69.1 L65.2,69.1 L65.2,71.3 L44.3,71.3 Z
+            M83.4,70.6 m-2,0 a2,2 0 1 0 4,0 a2,2 0 1 0 -4,0 Z" />
+    <!-- T lever -->
+    <path android:fillColor="#FF000000" android:pathData="M70.4,44.3 L80,44.3 L80,47.3 L75.95,47.3 L75.95,58.5 L74.45,58.5 L74.45,47.3 L70.4,47.3 Z" />
+    <!-- wordmark stand-in: a typed line -->
+    <path android:fillColor="#FF000000" android:pathData="M30,39 L76,39 L76,42.2 L30,42.2 Z" />
+</vector>

@@ -1,0 +1,38 @@
+# Android / Gradle build outputs
+android/.gradle/
+android/build/
+android/app/build/
+android/*/build/
+android/local.properties
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+output-metadata.json
+
+# Signing — never commit keys or passwords
+keystore/
+keystore*
+*.jks
+*.keystore
+keystore.properties
+android/keystore.properties
+!android/keystore.properties.example
+
+# Large sound sources (see android/sound_src/README.md)
+android/sound_src/v3/
+android/sound_src/*.flac
+
+# IDEs and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
