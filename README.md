@@ -14,6 +14,27 @@ that look and work the same.
 
 </div>
 
+## Languages & tech stack · زبان‌ها و تکنولوژی‌ها
+
+| | Android app (`android/`) | Web app (`web/`) |
+|---|---|---|
+| Main language · زبان اصلی | **Kotlin** | **JavaScript** (ES modules, no framework) |
+| UI · رابط کاربری | Jetpack Compose + Material 3 | **HTML5** + **CSS3** + Canvas 2D |
+| Build · ساخت | Gradle (Kotlin DSL, `.kts`) | None, static files · بدون نیاز به ساخت |
+| Config/resources · تنظیمات و منابع | XML (`AndroidManifest.xml`, `res/`) | JSON (`manifest.webmanifest`, `package.json`) |
+| Storage · ذخیره‌سازی | Room (SQLite) + DataStore | `localStorage` |
+| Sound · صدا | Android SoundPool | Web Audio API |
+| Tests · تست | JUnit + Robolectric (165 tests) | `node --test` (52 tests) |
+| Tooling scripts · اسکریپت‌های کمکی | Python (sound processing, asset rendering) | YAML (GitHub Actions → Pages) |
+
+## Downloads · فایل‌های zip
+
+| File | What's inside · محتوا | When to use · کاربرد |
+|---|---|---|
+| `platen-repo.zip` | The **whole repository**: `android/` source + `web/` source + README, CHANGELOG, LICENSE, screenshots, GitHub Actions workflow · کل مخزن: سورس اندروید و وب، مستندات، اسکرین‌شات‌ها و workflow | Push to GitHub or build the APK yourself · برای گذاشتن روی گیت‌هاب یا ساختن APK |
+| `platen-web.zip` | **Only the web app** (`index.html`, `css/`, `js/`, `assets/`, tests), ready to serve · فقط نسخه‌ی وب، آماده‌ی اجرا | Upload to any static host or open locally · برای آپلود روی هر هاست یا اجرای مستقیم |
+| `Platen-3.2.apk` | The signed, installable Android app · اپ اندروید امضاشده | Install on a phone · برای نصب روی گوشی |
+
 ---
 
 ## English
