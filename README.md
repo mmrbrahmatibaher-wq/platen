@@ -241,7 +241,7 @@ The tests mirror the Kotlin tests:
 4. The workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) runs on every push to `main`
    that touches `web/`. You can also start it from **Actions → Deploy web to GitHub Pages → Run workflow**.
    It runs `npm test`, then publishes the `web/` folder.
-5. After the run, the site is at `https://<your-user>.github.io/<repo-name>/`.
+5. After the run, the site is at `https://mmrbrahmatibaher-wq.github.io/platen/`.
    All paths are relative, so it works from a sub-path.
 
 #### Browser support
@@ -343,7 +343,7 @@ this project, the sounds are CC0 recordings, and the fonts and icons are open-li
 ### Push this repository to GitHub
 ```bash
 cd platen-repo
-git remote add origin https://github.com/<your-user>/platen.git
+git remote add origin https://github.com/mmrbrahmatibaher-wq/platen.git
 git branch -M main
 git push -u origin main
 ```
